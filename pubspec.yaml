@@ -18,11 +18,9 @@ dependencies:
   intl: ^0.18.0
   cupertino_icons: ^1.0.2
   share_plus: ^7.2.2
-
   shared_preferences: ^2.0.15
-  lecle_social_share: ^0.5.3
   flutter_launcher_icons: ^0.13.1
-  social_share: ^2.3.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

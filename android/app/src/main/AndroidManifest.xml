@@ -2,17 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     >
 
-    <queries>
-        <!-- Explicit apps you know in advance about: -->
-        <package android:name="com.instagram.android" />
-        <package android:name="com.facebook.katana" />
-        <package android:name="com.facebook.orca" />
-        <package android:name="org.telegram.messenger" />
-        <package android:name="com.whatsapp" />
-        <package android:name="com.twitter.android" />
-        <package android:name="com.zhiliaoapp.musically" />
-        <package android:name="com.ss.android.ugc.trill" />
-    </queries>
+
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -24,16 +14,6 @@
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
 
-        <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="${applicationId}.com.shekarmudaliyar.social_share"
-            android:exported="false"
-            android:grantUriPermissions="true"
-            tools:replace="android:authorities">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/filepaths" />
-        </provider>
 
         <activity
             android:name=".MainActivity"

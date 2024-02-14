@@ -1,9 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:lecle_social_share/lecle_social_share.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:social_share/social_share.dart';
 import 'package:stickershare/widgets/app_bar/custom_app_bar.dart';
 import 'package:stickershare/widgets/custom_icon_button.dart';
 
